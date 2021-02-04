@@ -72,6 +72,14 @@ header {
 
 a{display: block;}
 
+
+.icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    color: #2196F3;
+}
+
 .current,
 .head-link {  padding: 32px 0;
     list-style: none;
