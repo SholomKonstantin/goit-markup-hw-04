@@ -24,7 +24,7 @@ section {
 }
 
 .footer-container,
-.our-team-container, 
+.our-team, 
 .container,
 .clients-container { width: 1200px;
     padding-left: 15px;
@@ -276,7 +276,7 @@ background: var(--accent-color);
 
 /*Our team section*/
 
-.our-team-container { width: 1200px;
+.our-team-container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
