@@ -146,8 +146,19 @@ a{display: block;}
 
     margin: 0 auto;
     text-align: center;
-    background-color: var(--dark-background-color);
     background-image: url(../img/winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/winter.jpg);
+    text-align: center;
+    background-color: var(--dark-background-color);
+    
 }
 
 
@@ -331,9 +342,8 @@ padding-top: 94px;}
     align-items: center;
     width: 44px;
     height: 44px;
-    
     color: #afb1b8;    
-    fill: currentColor;
+    ;
 
     border-radius: 50%;
 }
@@ -388,8 +398,8 @@ padding-top: 94px;}
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+/*Footer */ 
 
-/*Footer */
 .page-footer {width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
