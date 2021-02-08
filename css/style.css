@@ -467,8 +467,8 @@ padding-top: 94px;}
     width: 44px;
     height: 44px;
     
-    color: var(--light-text-color);
-    fill: currentColor;
+    color: var(--main-background-color);
+    
     background: rgba(255, 255, 255, 0.1);
     
     border-radius: 50%;
