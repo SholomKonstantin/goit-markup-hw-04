@@ -26,7 +26,8 @@ section {
 .footer-container,
 .our-team, 
 .container,
-.clients-container { width: 1200px;
+.clients-container,
+.img-container { width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -252,18 +253,22 @@ background: var(--accent-color);
 /*What are we doing*/
 
 .img-container {
+    
     padding-top: 94px;
     padding-bottom: 94px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
-.coding-photo {
-    margin-right: 30px;
-    margin-left: 30px;
-}
+
+
 .section-slogan {
     margin-bottom: 50px;
     margin-top: 0;
