@@ -569,27 +569,28 @@ padding-top: 94px;}
         
         .project-content {
             text-decoration: none;
+            
+            
         }
         
         
         .projects-item {
             margin-right: 30px;
             margin-bottom: 30px;
-            background: #FFFFFF;
+            background:var(--main-background-color);
             border: 1px solid #EEEEEE;
         }
-        .projects-item :hover,
-        .projects-item :focus {
-            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-            0px 4px 4px rgba(0, 0, 0, 0.06),
-            1px 4px 6px rgba(0, 0, 0, 0.16);
-            }       
+        .project-content:hover, .project-content:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+        
 
         
         .description {
             padding: 20px 24px;
             
         }
+        
         
         .project-title {
             margin: 0px 0px 4px 0px;
